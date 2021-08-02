@@ -1,16 +1,39 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.hero-bg {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-image: url("/lorient-5.png");
 }
 
-* {
-  box-sizing: border-box;
+@media screen and (max-width: 420px) {
+  .hero-bg {
+    opacity: 1 !important;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+    /* background-position: center; */
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("/facial1.jpg");
+    background-position: center top;
+    background-size: cover;
+  }
 }
+
+.pricing-unordered-list li:before {
+  content: "✓";
+  font-family: "FontAwesome";
+  margin-right: 5px;
+}
+
+/* .pricing-card-img{
+  background-image: url('/facial7-min.jpg');
+} */
+
+/* # The Rotating Marker # */
