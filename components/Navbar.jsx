@@ -20,13 +20,13 @@ const Navbar = ({ toggle, isHome }) => {
         </li>
       </ul>
       <Link href="/">
-        <button
+        <a
           className={`${
             isHome ? "text-white" : "text-black"
           }  lg:text-black md:flex-grow text-center md:pr-24 text-4xl font-semibold uppercase `}
         >
-          L'orient
-        </button>
+          L&apos;orient
+        </a>
       </Link>
       <button
         className={`${isHome ? "text-white" : "text-black"} md:hidden`}

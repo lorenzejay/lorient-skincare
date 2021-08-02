@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Layout isHome={true}>
       <Head>
-        <title>L'ORIENT SKINCARE</title>
+        <title>L&apos;ORIENT SKINCARE</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div className="hero-bg bg-cover bg-no-repeat bg-top p-5 md:p-10 lg:px-28 2xl:px-32">
@@ -44,6 +44,7 @@ export default function Home() {
         <img
           src="/lorient-7.png"
           className="lg:w-1/2 object-cover h-96 lg:mr-20"
+          alt="Package for signature facial lorient skin care"
         />
         <div className="lg:flex-grow relative">
           <h3 className="text-4xl mt-5 font-semibold lg:mb-10  lg:text-5xl lg:mt-20">
@@ -65,12 +66,12 @@ export default function Home() {
           </button>
 
           <Link href="/services">
-            <button
+            <a
               className="cursor-pointer text-lg lg:mt-0 top-0 lg:absolute right-0 order-last"
               style={{ color: "#EBA47A" }}
             >
               See More packages
-            </button>
+            </a>
           </Link>
         </div>
       </div>

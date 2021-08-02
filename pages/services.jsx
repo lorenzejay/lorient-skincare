@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <Layout isHome={false}>
       <Head>
-        <title>SERVICES | L'ORIENT SKINCARE</title>
+        <title>SERVICES | L&apos;ORIENT SKINCARE</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <main className="p-5 pt-32  md:px-10 lg:pt-64 lg:px-28 2xl:px-32 bg-cover mb-10 bg-center  min-h-screen">
@@ -16,6 +16,7 @@ const Services = () => {
           <img
             src="/lorient-2.png"
             className="lg:w-1/2 object-cover h-96 lg:mr-20"
+            alt="service facial for intro pacakge"
           />
           <div className="lg:flex-grow">
             <h3 className="text-4xl mt-5 font-semibold lg:mb-10  lg:text-5xl lg:mt-20">
@@ -42,6 +43,7 @@ const Services = () => {
           <img
             src="/lorient-7.png"
             className="lg:w-1/2 object-cover h-96 lg:mr-12"
+            alt="service facial for custom pacakge"
           />
           <div className="relative">
             <h3 className="text-4xl mt-5 font-semibold mb-3 lg:mb-10 lg:relative  lg:text-5xl lg:mt-20">
@@ -67,6 +69,7 @@ const Services = () => {
           <img
             src="/lorient-9.png"
             className="lg:w-1/2 object-cover h-96 lg:mr-20"
+            alt="service facial for acne pacakge"
           />
           <div className="lg:flex-grow">
             <h3 className="text-4xl mt-5 font-semibold lg:mb-10  lg:text-5xl lg:mt-20">
@@ -93,6 +96,7 @@ const Services = () => {
           <img
             src="/lorient-7.png"
             className="lg:w-1/2 object-cover h-96 lg:mr-12"
+            alt="service facial for signature pacakge"
           />
           <div className="relative">
             <h3 className="text-4xl mt-5 font-semibold mb-3 lg:mb-10 lg:relative  lg:text-5xl lg:mt-20">

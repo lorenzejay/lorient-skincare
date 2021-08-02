@@ -21,6 +21,7 @@ const Testimonials = () => {
             <img
               src="/testimonial1.JPEG"
               className="object-cover w-full h-96"
+              alt="testimonial from jessica ramos - client"
             />
             <div
               className="p-6 absolute right-6 -bottom-6 text-red-300 z-2"
@@ -31,7 +32,7 @@ const Testimonials = () => {
           </div>
           <h4 className="font-bold text-2xl my-4">Jessica Ramos</h4>
           <p>
-            L'ORIENT gives the best facials. She really takes the time to
+            L&apos;ORIENT gives the best facials. She really takes the time to
             understand my skin so she can tailor my treatments to what works
             best for me. I always worry that facials will break out my acne
             prone skin but I always leave clear and glowing
@@ -42,6 +43,7 @@ const Testimonials = () => {
             <img
               src="/testimonial3.jpg"
               className="object-cover w-full object-center h-96"
+              alt="testimonial from kristina ramos - client"
             />
             <div
               className="p-6 absolute right-6 -bottom-6 text-red-300 z-2"
@@ -52,8 +54,8 @@ const Testimonials = () => {
           </div>
           <h4 className="font-bold text-2xl my-4">Kristina Ramos</h4>
           <p>
-            I love getting facials from L'ORIENT. Not only do her facials leave
-            my skin feeling fresh and hydrated, but she provides a calm,
+            I love getting facials from L&apos;ORIENT. Not only do her facials
+            leave my skin feeling fresh and hydrated, but she provides a calm,
             relaxing experience that puts me at ease and soothes both my mind
             and body.
           </p>

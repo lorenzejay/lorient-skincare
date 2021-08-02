@@ -9,6 +9,7 @@ const AboutUs = () => {
         <img
           src="/lorient-1.png"
           className="object-cover w-full lg:w-1/4 h-96 my-4 lg:my-0"
+          alt="facial massage treatement"
         />
         <div className="order-first flex flex-grow flex-col just ify-center mx-auto text-center z-10 my-10 lg:my-0 lg:absolute top-20 right-0 left-0">
           <h3
@@ -24,28 +25,30 @@ const AboutUs = () => {
             The Best In Los Angeles
           </p>
           <Link href="/services">
-            <button className="mt-5 text-lg 2xl:text-3xl font-thin">
-              Learn More
-            </button>
+            <a className="mt-5 text-lg 2xl:text-3xl font-thin">Learn More</a>
           </Link>
         </div>
         <img
           src="/lorient-2.png"
           className="object-cover w-full lg:w-72 lg:h-72 my-4 lg:my-0"
+          alt="facial mask being applied during treatement"
         />
       </div>
       <div className="hidden lg:flex flex-col justify-evenly lg:flex-row lg:justify-between relative mt-20 w-full ">
         <img
           src="/lorient-3.png"
           className="w-full my-4 lg:my-0 lg:w-1/4 lg:h-64 2xl:h-80 object-cover"
+          alt="facial massage treatement"
         />
         <img
           src="/lorient-4.png"
           className="w-full my-4 lg:my-0 lg:w-1/3 lg:h-96 object-cover"
+          alt="facial process in order to keep skin clear"
         />
         <img
           src="/lorient-6.png"
-          className="w-full my-4 lg:my-0 lg:w-1/4 lg:h-72 object-cover lg:relative -top-12 right-0"
+          className="w-full my-4 lg:my-0 lg:w-1/4 lg:h-72 object-cover lg:relative -top-12 right-0 "
+          alt="facial client with super nice skin"
         />
       </div>
     </div>

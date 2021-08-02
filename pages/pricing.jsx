@@ -10,7 +10,7 @@ const Pricing = () => {
   return (
     <Layout isHome={false}>
       <Head>
-        <title>PRICING | L'ORIENT SKINCARE</title>
+        <title>PRICING | L&apos;ORIENT SKINCARE</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <main className="p-5 pt-32  md:px-10 lg:pt-64 lg:px-28 2xl:px-32 bg-cover mb-10 bg-center text-white  min-h-screen">
