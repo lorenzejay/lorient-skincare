@@ -19,7 +19,7 @@ export default function Home() {
       ></div> */}
         <div className="pt-32 sm:pt:48 lg:pt-48 2xl:pt-72">
           <h1 className="w-3/4 text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl font-bold md:w-2/5 leading-relaxed text-white md:text-black">
-            Specializes in custom skin care treatment.
+            Specializes In Custom Skin Care Treatment.
           </h1>
           <p className="mt-10 text-lg  lg:text-2xl 2xl:text-4xl w-3/4 md:w-1/3 text-gray-50 lg:text-gray-700">
             Every facial is tailored to your skin type leaving your skin glowing
