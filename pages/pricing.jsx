@@ -2,11 +2,9 @@ import Head from "next/head";
 import React from "react";
 import { openPopupWidget } from "react-calendly";
 import Layout from "../components/Layout";
+import { handleOpenCalendly } from "../functions";
 
 const Pricing = () => {
-  const handleOpenCalendlyWithPackage = () => {
-    openPopupWidget({ url: "https://calendly.com/lorientskincare" });
-  };
   return (
     <Layout isHome={false}>
       <Head>
@@ -36,9 +34,7 @@ const Pricing = () => {
             <button
               className="border p-5 rounded-md transition duration-500 ease-in-out hover:bg-brown hover:text-white"
               style={{ borderColor: "#C78F6D" }}
-              onClick={() =>
-                openPopupWidget({ url: "https://calendly.com/lorientskincare" })
-              }
+              onClick={handleOpenCalendly}
             >
               Choose
             </button>
@@ -61,9 +57,7 @@ const Pricing = () => {
             <button
               className="border p-5 rounded-md transition duration-500 ease-in-out hover:bg-brown hover:text-white"
               style={{ borderColor: "#C78F6D" }}
-              onClick={() =>
-                openPopupWidget({ url: "https://calendly.com/lorientskincare" })
-              }
+              onClick={handleOpenCalendly}
             >
               Choose
             </button>
@@ -86,9 +80,7 @@ const Pricing = () => {
             <button
               className="border p-5 rounded-md transition duration-500 ease-in-out hover:bg-main-bg hover:text-black"
               style={{ borderColor: "#FFFFFF" }}
-              onClick={() =>
-                openPopupWidget({ url: "https://calendly.com/lorientskincare" })
-              }
+              onClick={handleOpenCalendly}
             >
               Choose
             </button>
@@ -113,9 +105,7 @@ const Pricing = () => {
             <button
               className="border p-5 rounded-md transition duration-500 ease-in-out hover:bg-brown hover:text-white"
               style={{ borderColor: "#C78F6D" }}
-              onClick={() =>
-                openPopupWidget({ url: "https://calendly.com/lorientskincare" })
-              }
+              onClick={handleOpenCalendly}
             >
               Choose
             </button>

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import { openPopupWidget } from "react-calendly";
 import { FaTimes } from "react-icons/fa";
+import { handleOpenCalendly } from "../functions";
 const MobileNav = ({ toggle, isOpen }) => {
   return (
     <div
@@ -25,13 +25,7 @@ const MobileNav = ({ toggle, isOpen }) => {
           <Link href="/pricing">PRICING</Link>
         </li>
         <li className="my-1">
-          <button
-            onClick={() =>
-              openPopupWidget({ url: "https://calendly.com/lorientskincare" })
-            }
-          >
-            BOOK NOW
-          </button>
+          <button onClick={handleOpenCalendly}>BOOK NOW</button>
         </li>
         {/* <li>
             <Link href="/blog">Blog</Link>

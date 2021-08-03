@@ -2,6 +2,7 @@ import Head from "next/head";
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import Layout from "../components/Layout";
+import { handleOpenCalendly } from "../functions";
 
 const Services = () => {
   return (
@@ -30,7 +31,10 @@ const Services = () => {
               need a complexion rejuvenation for a short amount of time. Does
               not include extraction.
             </p>
-            <button className="border border-black px-10 lg:absolute lg:bottom-0 py-2  flex items-center">
+            <button
+              className="border border-black px-10 lg:absolute lg:bottom-0 py-2  flex items-center"
+              onClick={handleOpenCalendly}
+            >
               Book Now{" "}
               <span>
                 <FaArrowRight />
@@ -56,7 +60,10 @@ const Services = () => {
               This treatment is customized to your personal skincare goals and
               has everything included from the intro package.
             </p>
-            <button className="border border-black px-10 lg:absolute lg:bottom-0 py-2 flex items-center">
+            <button
+              className="border border-black px-10 lg:absolute lg:bottom-0 py-2 flex items-center"
+              onClick={handleOpenCalendly}
+            >
               Book Now{" "}
               <span>
                 <FaArrowRight />
@@ -83,7 +90,10 @@ const Services = () => {
               crucial to deep clean the congested pores, especially with
               extraction to speed up the healing process.
             </p>
-            <button className="border border-black px-10 lg:absolute lg:bottom-0 py-2  flex items-center">
+            <button
+              className="border border-black px-10 lg:absolute lg:bottom-0 py-2  flex items-center"
+              onClick={handleOpenCalendly}
+            >
               Book Now{" "}
               <span>
                 <FaArrowRight />
@@ -112,7 +122,10 @@ const Services = () => {
               off with jelly treatment masks and ice globes to give your skin
               some love and glow naturally.
             </p>
-            <button className="border border-black px-10 lg:absolute lg:bottom-0 py-2 flex items-center">
+            <button
+              className="border border-black px-10 lg:absolute lg:bottom-0 py-2 flex items-center"
+              onClick={handleOpenCalendly}
+            >
               Book Now{" "}
               <span>
                 <FaArrowRight />

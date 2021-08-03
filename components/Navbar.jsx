@@ -1,11 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { openPopupWidget } from "react-calendly";
+import { handleOpenCalendly } from "../functions";
 const Navbar = ({ toggle, isHome }) => {
-  const handleOpenCalendly = () => {
-    openPopupWidget({ url: "https://calendly.com/lorientskincare" });
-  };
   return (
     <nav
       className="flex w-full justify-between items-center px-5 pt-10 md:px-10 lg:pt-16 lg:px-28 2xl:px-32 bg-none absolute z-10"
