@@ -10,6 +10,7 @@ const Services = () => {
       <Head>
         <title>SERVICES | L&apos;ORIENT SKINCARE</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="icon" href="/lorientlogo.png" />
       </Head>
       <main className="p-5 pt-32  md:px-10 lg:pt-64 lg:px-28 2xl:px-32 bg-cover mb-10 bg-center  min-h-screen">
         <h1 className="text-4xl lg:text-5xl font-semibold">Services</h1>
@@ -49,14 +50,14 @@ const Services = () => {
             className="lg:w-1/2 object-cover h-96 lg:mr-12"
             alt="service facial for custom pacakge"
           />
-          <div className="relative">
+          <div className="relative lg:mr-5">
             <h3 className="text-4xl mt-5 font-semibold mb-3 lg:mb-10 lg:relative  lg:text-5xl lg:mt-20">
               Custom Package.
             </h3>
-            <p className="text-2xl font-medium lg:border-t lg:text-3xl lg:mr-5">
+            <p className="text-2xl font-medium lg:border-t lg:text-3xl ">
               $ 95
             </p>
-            <p className="mt-2 leading-loose mb-5 lg:mr-5 flex-grow">
+            <p className="mt-2 leading-loose mb-5  flex-grow">
               This treatment is customized to your personal skincare goals and
               has everything included from the intro package.
             </p>
@@ -108,7 +109,7 @@ const Services = () => {
             className="lg:w-1/2 object-cover h-96 lg:mr-12"
             alt="service facial for signature pacakge"
           />
-          <div className="relative">
+          <div className="relative lg:mr-5">
             <h3 className="text-4xl mt-5 font-semibold mb-3 lg:mb-10 lg:relative  lg:text-5xl lg:mt-20">
               Signature Package.
             </h3>
@@ -123,7 +124,7 @@ const Services = () => {
               some love and glow naturally.
             </p>
             <button
-              className="border border-black px-10 lg:absolute lg:bottom-0 py-2 flex items-center"
+              className="border border-black px-10 lg:bottom-0 py-2 flex items-center"
               onClick={handleOpenCalendly}
             >
               Book Now{" "}

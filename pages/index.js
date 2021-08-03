@@ -11,6 +11,7 @@ export default function Home() {
       <Head>
         <title>L&apos;ORIENT SKINCARE</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="icon" href="/lorientlogo.png" />
       </Head>
       <div className="hero-bg bg-cover bg-no-repeat bg-top p-5 md:p-10 lg:px-28 2xl:px-32">
         {/* <div

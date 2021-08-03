@@ -10,6 +10,7 @@ const Pricing = () => {
       <Head>
         <title>PRICING | L&apos;ORIENT SKINCARE</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="icon" href="/lorientlogo.png" />
       </Head>
       <main className="p-5 pt-32  md:px-10 lg:pt-64 lg:px-28 2xl:px-32 bg-cover mb-10 bg-center text-white  min-h-screen">
         <h1 className="w-full text-start font-bold text-4xl lg:text-5xl text-black mb-10">
