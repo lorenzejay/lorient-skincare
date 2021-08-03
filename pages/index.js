@@ -4,6 +4,7 @@ import Testimonials from "../components/Testimonials";
 import Layout from "../components/Layout";
 import { FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
+import { handleOpenCalendly } from "../functions";
 export default function Home() {
   return (
     <Layout isHome={true}>
@@ -58,7 +59,10 @@ export default function Home() {
             need a complexion rejuvenation for a short amount of time. Does not
             include extraction.
           </p>
-          <button className="border mb-10 lg:mb-0 border-black px-10 lg:absolute lg:bottom-0 py-2  flex items-center">
+          <button
+            className="border mb-10 lg:mb-0 border-black px-10 lg:absolute lg:bottom-0 py-2  flex items-center"
+            onClick={handleOpenCalendly}
+          >
             Book Now{" "}
             <span>
               <FaArrowRight />
