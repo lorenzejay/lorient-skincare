@@ -65,7 +65,7 @@ const Pricing = () => {
           </div>
 
           <div className="flex flex-col justify-start mb-20 lg:mb-0 lg:mr-3 p-5 lg:w-1/4 transition-all duration-500 ease-in-out border border-opacity-0 hover:border-opacity-100 hover:shadow-lg bg-brown text-white rounded-md">
-            <h3 className="font-light text-2xl ">Acne Signature Facial</h3>
+            <h3 className="font-light text-2xl ">Acne Facial</h3>
             <p className="font-bold mt-2 text-4xl">$95</p>
             <p className="text-xl my-8 ">
               Acne facials are designed to treat the root cause of acne. Great
