@@ -43,10 +43,10 @@ const Pricing = () => {
 
           <div className="flex flex-col justify-start text-black mb-20 lg:mb-0 p-5 lg:w-1/4 transition-all duration-500 ease-in-out border border-opacity-0 hover:border-opacity-100 hover:shadow-lg rounded-md lg:mr-3">
             <h3 className="font-light text-2xl ">Custom</h3>
-            <p className="font-bold mt-2 text-4xl">$100</p>
+            <p className="font-bold mt-2 text-4xl">$95</p>
             <p className="text-xl my-8 ">
-              Great for people with light acne and are looking to maintain their
-              skin from aging.
+              This treatment is customized to your personal skincare goals and
+              has everything included from the intro package.
             </p>
             <ul className="flex-grow pricing-unordered-list list-none list-inside mb-5 text-gray-700 text-xl ">
               <li className="mt-5">Double Cleanse</li>
@@ -66,10 +66,11 @@ const Pricing = () => {
 
           <div className="flex flex-col justify-start mb-20 lg:mb-0 lg:mr-3 p-5 lg:w-1/4 transition-all duration-500 ease-in-out border border-opacity-0 hover:border-opacity-100 hover:shadow-lg bg-brown text-white rounded-md">
             <h3 className="font-light text-2xl ">Acne Signature Facial</h3>
-            <p className="font-bold mt-2 text-4xl">$120</p>
+            <p className="font-bold mt-2 text-4xl">$95</p>
             <p className="text-xl my-8 ">
-              Great for people with light acne and are looking to maintain their
-              skin from aging.
+              Acne facials are designed to treat the root cause of acne. Great
+              for those who needs heavier extraction and a faster healing
+              process.
             </p>
             <ul className="pricing-unordered-list list-none list-inside mb-5 text-gray-700 text-xl ">
               <li className="mt-5">Signature Double Cleanse</li>
@@ -89,10 +90,10 @@ const Pricing = () => {
 
           <div className="flex flex-col justify-start text-black mb-20 lg:mb-0 p-5 lg:w-1/4 transition-all duration-500 ease-in-out border border-opacity-0 hover:border-opacity-100 hover:shadow-lg rounded-md">
             <h3 className="font-light text-2xl ">Signature</h3>
-            <p className="font-bold mt-2 text-4xl">$150</p>
+            <p className="font-bold mt-2 text-4xl">$120</p>
             <p className="text-xl my-8 ">
-              Great for people with light acne and are looking to maintain their
-              skin from aging.
+              L’orient signature facials use a specific skin care product
+              catering to each individual needs.
             </p>
             <ul className="flex-grow pricing-unordered-list list-none list-inside mb-5 text-gray-700 text-xl ">
               <li className="mt-5">Double Cleanse & Enzye Wash</li>

@@ -45,7 +45,7 @@ export default function Home() {
       <div className="flex flex-col mt-10 lg:mt-24 lg:flex-row justify-between relative p-5  py-24 md:px-10 lg:px-28 lg:py-48 2xl:px-32 bg-cover mb-10 bg-center bg-main-bg ">
         <img
           src="/lorient-7.png"
-          className="lg:w-1/2 object-cover h-96 lg:mr-20"
+          className="lg:w-1/2 object-cover h-96 lg:h-auto lg:mr-20"
           alt="Package for signature facial lorient skin care"
         />
         <div className="lg:flex-grow relative">
@@ -56,12 +56,14 @@ export default function Home() {
             $ 120
           </p>
           <p className="mt-2 mb-5 text-lg flex-grow">
-            35 min long relaxing facial. Great for the people on the go that
-            need a complexion rejuvenation for a short amount of time. Does not
-            include extraction.
+            L’orient signature facials use a specific skin care product catering
+            to each individual needs. It includes thorough cleansing, gentle
+            exfoliation, extraction, relaxing facial massage. Finish off with
+            jelly treatment masks and ice globes to give your skin some love and
+            glow naturally.
           </p>
           <button
-            className="border mb-10 lg:mb-0 border-black px-10 lg:absolute lg:bottom-0 py-2  flex items-center"
+            className="border mb-10 lg:mb-0 border-black px-10 py-2  flex items-center"
             onClick={handleOpenCalendly}
           >
             Book Now{" "}
