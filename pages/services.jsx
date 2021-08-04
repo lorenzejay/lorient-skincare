@@ -22,7 +22,7 @@ const Services = () => {
           />
           <div className="lg:flex-grow">
             <h3 className="text-4xl mt-5 font-semibold lg:mb-10  lg:text-5xl lg:mt-20">
-              Intro Package.
+              Express Package.
             </h3>
             <p className="text-2xl font-medium lg:border-t lg:text-3xl pt-5">
               $ 75

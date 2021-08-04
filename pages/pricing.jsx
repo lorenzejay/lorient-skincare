@@ -19,11 +19,11 @@ const Pricing = () => {
 
         <section className="flex flex-col lg:flex-row w-full ">
           <div className="flex flex-col justify-start text-black mb-20 lg:mb-0 p-5 lg:w-1/4 transition-all duration-500 ease-in-out border border-opacity-0 hover:border-opacity-100 hover:shadow-lg rounded-md lg:mr-3">
-            <h3 className="font-light text-2xl ">Intro</h3>
+            <h3 className="font-light text-2xl ">Express</h3>
             <p className="font-bold mt-2 text-4xl">$75</p>
             <p className="text-xl my-8 ">
-              Great for people with light acne and are looking to maintain their
-              skin from aging.
+              35 min long relaxing facial. Great for the people on the go that
+              need a complexion rejuvenation for a short amount of time.
             </p>
             <ul className="flex-grow pricing-unordered-list list-none list-inside mb-5 text-gray-700 text-xl ">
               <li className="mt-5">Double Cleanse</li>
@@ -50,7 +50,7 @@ const Pricing = () => {
             </p>
             <ul className="flex-grow pricing-unordered-list list-none list-inside mb-5 text-gray-700 text-xl ">
               <li className="mt-5">Double Cleanse</li>
-              <li className="mt-5">Enzyme Wash</li>
+              <li className="mt-5">Enzyme Mask</li>
               <li className="mt-5">Extraction</li>
               <li className="mt-5">Ice Globes</li>
               <li className="mt-5">Moisturize and SPF</li>
