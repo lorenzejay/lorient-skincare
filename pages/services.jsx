@@ -22,15 +22,15 @@ const Services = () => {
           />
           <div className="lg:flex-grow">
             <h3 className="text-4xl mt-5 font-semibold lg:mb-10  lg:text-5xl lg:mt-20">
-              Express Package.
+              Express.
             </h3>
             <p className="text-2xl font-medium lg:border-t lg:text-3xl pt-5">
               $ 75
             </p>
-            <p className="mt-2 mb-5 text-lg flex-grow">
-              35 min long relaxing facial. Great for the people on the go that
-              need a complexion rejuvenation for a short amount of time. Does
-              not include extraction.
+            <p className="mt-2 mb-5 text-md flex-grow">
+              35 minute long relaxing facial. Great for the people on the go
+              that need a complexion rejuvenation for a short amount of time.
+              Does not include extraction.
             </p>
             <button
               className="border border-black px-10 lg:absolute lg:bottom-0 py-2  flex items-center"
@@ -52,12 +52,12 @@ const Services = () => {
           />
           <div className="relative lg:mr-5">
             <h3 className="text-4xl mt-5 font-semibold mb-3 lg:mb-10 lg:relative  lg:text-5xl lg:mt-20">
-              Custom Package.
+              Custom.
             </h3>
             <p className="text-2xl font-medium lg:border-t lg:text-3xl ">
               $ 95
             </p>
-            <p className="mt-2 leading-loose mb-5  flex-grow">
+            <p className="mt-2 leading-loose mb-5 text-md flex-grow">
               This treatment is customized to your personal skincare goals and
               has everything included from the intro package.
             </p>
@@ -81,12 +81,12 @@ const Services = () => {
           />
           <div className="lg:flex-grow">
             <h3 className="text-4xl mt-5 font-semibold lg:mb-10  lg:text-5xl lg:mt-20">
-              Acne Package.
+              Acne.
             </h3>
             <p className="text-2xl font-medium lg:border-t lg:text-3xl pt-5">
               $ 95
             </p>
-            <p className="mt-2 mb-5 text-lg flex-grow">
+            <p className="mt-2 mb-5 text-md flex-grow">
               Acne facials are designed to treat the root cause of acne. It is
               crucial to deep clean the congested pores, especially with
               extraction to speed up the healing process.
@@ -105,18 +105,18 @@ const Services = () => {
 
         <div className="flex flex-col  mt-10 lg:mt-24 lg:flex-row-reverse justify-between relative">
           <img
-            src="/lorient-7.png"
+            src="/lorient-7.jpg"
             className="lg:w-1/2 object-cover h-96 lg:mr-12"
             alt="service facial for signature pacakge"
           />
           <div className="relative lg:mr-5">
             <h3 className="text-4xl mt-5 font-semibold mb-3 lg:mb-10 lg:relative  lg:text-5xl lg:mt-20">
-              Signature Package.
+              Signature.
             </h3>
             <p className="text-2xl font-medium lg:border-t lg:text-3xl ">
               $ 120
             </p>
-            <p className="mt-2 leading-loose mb-5 flex-grow">
+            <p className="mt-2 leading-loose mb-5 text-md flex-grow">
               L’orient signature facials use a specific skin care product
               catering to each individual needs. It includes thorough cleansing,
               gentle exfoliation, extraction, relaxing facial massage. Finish

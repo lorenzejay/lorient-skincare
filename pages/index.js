@@ -44,13 +44,13 @@ export default function Home() {
 
       <div className="flex flex-col mt-10 lg:mt-24 lg:flex-row justify-between relative p-5  py-24 md:px-10 lg:px-28 lg:py-48 2xl:px-32 bg-cover mb-10 bg-center bg-main-bg ">
         <img
-          src="/lorient-7.png"
+          src="/lorient-7.jpg"
           className="lg:w-1/2 object-cover h-96 lg:h-auto lg:mr-20"
           alt="Package for signature facial lorient skin care"
         />
         <div className="lg:flex-grow relative">
           <h3 className="text-4xl mt-5 font-semibold lg:mb-10  lg:text-5xl lg:mt-20">
-            Signature Package.
+            Signature.
           </h3>
           <p className="text-2xl font-medium lg:border-t lg:text-3xl pt-5">
             $ 120
